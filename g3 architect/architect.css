@@ -81,6 +81,21 @@ nav li{
     color: #727272;
 }
 
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.frens-img-container > img{
+    width: 342px;
+    height: 342px;
+}
+
+/* frens styles */
+.frens-container{
+    display: flex;
+}
 
 
 
