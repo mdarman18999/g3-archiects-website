@@ -84,7 +84,7 @@ nav li{
 /* main styles */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 .frens-img-container > img{
@@ -112,11 +112,13 @@ main{
 
 .frens-title{
     font-size: 45px;
-    padding: 30px;
+    /* padding: 20px; */
 }
 .teams-description{
     color: #727272;
     padding-bottom: 30px;
+    /* padding: 20px; */
+    padding-top: 20px;
 }
 .quick-list{
     color: #424242;
@@ -126,6 +128,16 @@ main{
 }
 .Features{
     color: #FF900E;
+}
+
+/* <!-- facts section --> */
+.facts-p{
+    color: #727272;
+}
+.facts-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+   color: #131313;
 }
 
 
@@ -146,8 +158,8 @@ main{
     }
 
     .frens-content{
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
   
 
