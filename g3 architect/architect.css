@@ -136,10 +136,21 @@ main{
     header{
         padding: 20px ;
     }
-    nav{
+    nav,
+    .frens-container{
         flex-direction: column;
     }
-    nav
+    
+    .frens-img-container{
+        grid-template-columns: 1fr;
+    }
+
+    .frens-content{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+  
+
 }
 
 /* tablet or medium devices */
@@ -150,4 +161,8 @@ main{
     header{
         padding: 50px;
     }
+    nav, .frens-container{
+        flex-direction: column;
+    }
+ 
 }
