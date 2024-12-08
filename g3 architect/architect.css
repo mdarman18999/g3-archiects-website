@@ -95,6 +95,37 @@ main{
 /* frens styles */
 .frens-container{
     display: flex;
+    align-items: center;
+   
+}
+.frens-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 50px;
+   
+}
+.frens-content{
+   padding-right: 50px;
+   padding-left: 50px;
+}
+
+.frens-title{
+    font-size: 45px;
+    padding: 30px;
+}
+.teams-description{
+    color: #727272;
+    padding-bottom: 30px;
+}
+.quick-list{
+    color: #424242;
+}
+.of our{
+    color: black;
+}
+.Features{
+    color: #FF900E;
 }
 
 
